@@ -1,5 +1,6 @@
 import { useState } from "react";
-import Modal from "./components/Modal/Modal";
+// import Modal from "./components/Modal/Modal";
+import Table from "./components/ShowApiDataTableFormat/table";
 import "./App.css";
 
 function App() {
@@ -7,9 +8,11 @@ function App() {
 
   return (
     <>
-      <h1>Creating PopUp Modal</h1>
+      {/* Showing Popuo */}
+      {/* <h1>Creating PopUp Modal</h1>
       <button onClick={() => setNotify(true)}>Open Modal</button>
-      {notify && <Modal setNotify={setNotify} />}
+      {notify && <Modal setNotify={setNotify} />} */}
+      <Table />
     </>
   );
 }

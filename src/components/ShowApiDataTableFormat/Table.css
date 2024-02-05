@@ -1,0 +1,14 @@
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+.main {
+  margin: 0px auto;
+}
+
+table {
+  margin: 50px auto;
+  /* border-collapse: collapse; */
+}
