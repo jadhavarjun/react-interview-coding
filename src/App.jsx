@@ -3,6 +3,7 @@ import { useState } from "react";
 // import Table from "./components/ShowApiDataTableFormat/table";
 import LightDarkMode from "./components/LightDarkMode/LightDarkMode";
 import "./App.css";
+import StopWatch from "./components/StopWatch/StopWatch";
 
 function App() {
   const [notify, setNotify] = useState(false);
@@ -14,7 +15,8 @@ function App() {
       <button onClick={() => setNotify(true)}>Open Modal</button>
       {notify && <Modal setNotify={setNotify} />} */}
       {/* <Table /> */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+      <StopWatch />
     </>
   );
 }
